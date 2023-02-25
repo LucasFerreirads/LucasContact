@@ -33,8 +33,11 @@ h1{
     margin-bottom: 20px;
 }
 .btn{
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
     display: flex;
-    border: 1px solid red;
     align-items: center;
     justify-content: center;
     width: 15rem;
@@ -45,7 +48,6 @@ h1{
     margin-bottom: 20px;
 }
 .btn p{
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
